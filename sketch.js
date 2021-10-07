@@ -1,10 +1,10 @@
-var day1;
+var day;
 
 function setup() {
   createCanvas(400, 400);
   
   //assign random round off number to day
-  day1 = Math.round(random(1,7))
+  day = Math.round(random(1,7))
   
 }
 
@@ -14,7 +14,7 @@ function draw() {
   textSize(20);
 
   //add switch case for day name
-  switch(day1) {
+  switch(day) {
 	case 1 : 
     	text("Sunday", 150,200);
         break;
